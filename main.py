@@ -87,4 +87,4 @@ elif(app_mode=="Disease Recognition"):
                     'Corn_(maize)___Common_rust_', 'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy',
                     'Grape___Black_rot', 'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)',
                     'Grape___healthy', 'Orange___Haunglongbing_(Citrus_greening)']
-        st.success("Model is Predicting it's a {}".format(class_name[result_index]))
+        st.success("Disease Name : {}".format(class_name[result_index]))
